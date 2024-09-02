@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced: Interactive Dashboard Layout</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="dashboard">
+      <header>
+        <h1>My Dashboard</h1>
+        <nav>
+          <a href="#" class="active">Home</a>
+          <a href="#">Analytics</a>
+          <a href="#">Projects</a>
+          <a href="#">Settings</a>
+        </nav>
+      </header>
+      <main>
+        <section class="widget" id="stats">
+          <h2>Statistics</h2>
+          <div class="stat-grid">
+            <div class="stat-item">
+              <span class="stat-value">254</span>
+              <span class="stat-label">New Users</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value">12,345</span>
+              <span class="stat-label">Page Views</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value">$15,678</span>
+              <span class="stat-label">Revenue</span>
+            </div>
+          </div>
+        </section>
+        <section class="widget" id="tasks">
+          <h2>Recent Tasks</h2>
+          <ul class="task-list">
+            <li>Complete project proposal</li>
+            <li>Review client feedback</li>
+            <li>Update website content</li>
+            <li>Prepare monthly report</li>
+          </ul>
+        </section>
+        <section class="widget" id="chart">
+          <h2>Performance Chart</h2>
+          <div class="chart-placeholder">
+            <!-- Placeholder for a chart -->
+            <div class="bar" style="height: 60%"></div>
+            <div class="bar" style="height: 80%"></div>
+            <div class="bar" style="height: 40%"></div>
+            <div class="bar" style="height: 90%"></div>
+            <div class="bar" style="height: 70%"></div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
